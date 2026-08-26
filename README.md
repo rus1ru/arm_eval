@@ -2,7 +2,7 @@
 
 This is the official simulator for the
 [arm_description](https://github.com/dasunsanjaya080/arm_description)
-robot arm package.
+robot arm design.
 
 <p align="center">
   <img src="assets/pose_ready.png" width="30%" />
