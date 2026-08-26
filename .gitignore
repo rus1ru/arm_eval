@@ -1,0 +1,7 @@
+.venv*/
+.venv-sim/
+__pycache__/
+*.pyc
+arm.xml
+_t.py
+_headless_test.py
