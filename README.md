@@ -1,9 +1,21 @@
 # MG995 6-DOF Robot Arm — MuJoCo Simulator
 
+This is the official simulator for the
+[arm_description](https://github.com/dasunsanjaya080/arm_description)
+robot arm package.
+
+<p align="center">
+  <img src="assets/pose_ready.png" width="30%" />
+  <img src="assets/pose_home.png"  width="30%" />
+  <img src="assets/pose_sag.png"   width="36%" />
+</p>
+
 Interactive simulation of a 3D-printed 6-DOF robot arm driven by MG995
 hobby servos, with an MG90 metal-gear claw. Drag sliders to command joint
 angles; the sim shows the **real servo droop** you would see on the
-physical arm.
+physical arm. In the right-hand shot the red sphere marks where the claw
+*would* be with ideal servos — the gap is genuine gravity sag against the
+1.13 N·m torque limit.
 
 ![arm](https://img.shields.io/badge/simulator-MuJoCo%203.x-orange)
 
@@ -58,6 +70,7 @@ A viewer window opens with the arm rendered.
 | `arm.urdf` | self-contained robot description (relative mesh paths) |
 | `meshes/` | link STL meshes |
 | `arm.xml` | generated MJCF — rebuilt automatically each run |
+| `assets/` | rendered screenshots used in this README |
 
 ## Hardware notes (validated against this model)
 
